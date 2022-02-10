@@ -23,5 +23,11 @@ Popped off Homer Simpson: 47
 Error! Stack empty.
 */
 
-
-
+NewQueueCollection.UseGenericQueue();
+/*
+Mike first in line
+Mike got coffee
+Margo got coffee
+Tanya got coffee
+Error: Queue empty.
+*/
