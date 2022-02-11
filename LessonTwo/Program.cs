@@ -31,3 +31,24 @@ Margo got coffee
 Tanya got coffee
 Error: Queue empty.
 */
+
+NewSortedSet.UseSortedSet();
+/*
+Varvara sbk: 1
+Margo sbk: 3
+Tanya sbk: 33
+Mike sbk: 34
+
+Varvara sbk: 1
+Gera sbk: 2
+Margo sbk: 3
+Tanya sbk: 33
+Mike sbk: 34
+*/
+
+NewDictionary.UseDictionary();
+/*
+Father: "Mike Der: 34"
+Mother: "Tanya Der: 33"
+First child: "Margo Der: 31"
+*/

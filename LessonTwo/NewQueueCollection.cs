@@ -2,7 +2,7 @@
 {
     internal class NewQueueCollection
     {
-        static void GetCoffe(Person p)
+        private static void GetCoffe(Person p)
         {
             Console.WriteLine($"{p.FirstName} got coffee");
         }
