@@ -1,6 +1,6 @@
 ﻿namespace LessonFour
 {
-    internal struct Point<SomeType>
+    internal struct Point<SomeType> where SomeType : struct // it may not be written (where SomeType : struct)
     {
         // Обобщенные данные состояния,
         private SomeType xPos;
