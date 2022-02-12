@@ -10,7 +10,7 @@ a - 2; b - 1
 */
 
 string sa = "World", sb = "Hello";
-// Swap<string>(ref sa, ref sb);
+// MyGenericClass.Swap<string>(ref sa, ref sb);
 MyGenericClass.Swap(ref sa, ref sb);
 Console.WriteLine($"a - {sa}; b - {sb}\n\n");
 /*
