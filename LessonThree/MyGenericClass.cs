@@ -2,10 +2,10 @@
 {
     internal class MyGenericClass
     {
-        public static void Swap<T>(ref T a, ref T b) // any type can be used
+        public static void Swap<anyType>(ref anyType a, ref anyType b) // any type can be used
         {
-            Console.WriteLine($"Поменять местами два элемента, типа {typeof(T)}");
-            T temp = a;
+            Console.WriteLine($"Поменять местами два элемента, типа {typeof(anyType)}");
+            anyType temp = a;
             a = b;
             b = temp;
         }
