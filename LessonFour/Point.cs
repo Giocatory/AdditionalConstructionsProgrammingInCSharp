@@ -1,27 +1,27 @@
 ﻿namespace LessonFour
 {
-    internal struct Point<T>
+    internal struct Point<SomeType>
     {
         // Обобщенные данные состояния,
-        private T xPos;
+        private SomeType xPos;
 
-        private T yPos;
+        private SomeType yPos;
 
         // Обобщенный конструктор,
-        public Point(T xVal, T yVal)
+        public Point(SomeType xVal, SomeType yVal)
         {
             xPos = xVal;
             yPos = yVal;
         }
 
         // Обобщенные свойства,
-        public T X
+        public SomeType X
         {
             get { return xPos; }
             set { xPos = value; }
         }
 
-        public T Y
+        public SomeType Y
         {
             get { return yPos; }
             set { yPos = value; }
@@ -30,11 +30,11 @@
         public override string ToString() => $"({xPos}; {yPos})";
 
         // Сбросить поля в стандартные значения
-        // для заданного параметра типа,
+        // для заданного параметра типа SomeType,
         public void ResetPoint()
         {
-            xPos = default(T);
-            yPos = default(T);
+            xPos = default(SomeType);
+            yPos = default(SomeType);
         }
     }
 }
