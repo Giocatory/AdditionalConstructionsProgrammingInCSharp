@@ -17,3 +17,11 @@
 
 > Lesson Four
 > > Creating Special Generic Classes and Structures
+
+> Lesson Five
+> > Base work with delegates
+
+> Lesson Six
+> > + Delegate
+> > + Anonymous methods with delegate
+> > + Lambda expressions
