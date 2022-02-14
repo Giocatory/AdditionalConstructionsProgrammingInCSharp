@@ -22,6 +22,6 @@
 > > Base work with delegates
 
 > Lesson Six
-> > Delegate
-> > Anonymous methods with delegate
-> > Lambda expressions
+> > + Delegate
+> > + Anonymous methods with delegate
+> > + Lambda expressions
