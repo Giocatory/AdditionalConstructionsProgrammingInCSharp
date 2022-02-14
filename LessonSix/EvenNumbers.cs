@@ -15,10 +15,12 @@
             foreach (int evenNumber in evenNumbers) Console.Write($"{evenNumber}, ");
             Console.WriteLine();
         }
+
         private bool IsEvenNumber(int i)
         {
             return (i % 2 == 0);
         }
+
         public void AnonymousMethodSyntax()
         {
             // anonymous delegate call

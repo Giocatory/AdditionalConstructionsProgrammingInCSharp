@@ -3,6 +3,7 @@
     internal class Car
     {
         private int speed = 0;
+
         public delegate void ToFast();
 
         private ToFast? toFast;
