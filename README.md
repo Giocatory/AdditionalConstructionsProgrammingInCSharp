@@ -28,3 +28,8 @@
 
 > Lesson Seven
 > > operator overloading (+,-,++,--,.......)
+
+> Lesson Eight
+> > Base work with LINQ
+> > + Query Over Strings
+> > + Query Over Strings With Extension Methods
