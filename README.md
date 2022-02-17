@@ -33,3 +33,7 @@
 > > Base work with LINQ
 > > + Query Over Strings
 > > + Query Over Strings With Extension Methods
+
+> Lesson Eight #2
+> > Continuing to learn the basics of LINQ
+> > + Immediate Execution
