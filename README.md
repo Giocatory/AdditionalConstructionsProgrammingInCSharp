@@ -37,3 +37,10 @@
 > Lesson Eight #2
 > > Continuing to learn the basics of LINQ
 > > + Immediate Execution
+
+> Lesson Eight #3
+> > + Returning LINQ Results
+
+> Lesson Eight #4
+> Lesson Eight #5
+> Lesson Nine
