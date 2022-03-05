@@ -42,5 +42,8 @@
 > > + Returning LINQ Results
 
 > Lesson Eight #4
+> > + Applying LINQ Queries to Collection Objects
+> > + Convert Array List to IEnumerable<T> compatible type
+
 > Lesson Eight #5
-> Lesson Nine
+> > + Filtering data using the OfType<T> method
